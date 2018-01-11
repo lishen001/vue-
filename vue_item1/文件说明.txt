@@ -1,0 +1,11 @@
+component   // 各种组件
+
+router  // 路由组件
+
+masklayer   // 遮罩层组件
+
+template    // 其它组件
+
+footer  // 脚
+
+header  // 头
