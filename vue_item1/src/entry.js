@@ -10,7 +10,7 @@ import footerbox from './component/template/footer/footer.vue';
 import headerbox from './component/template/header/header-box.vue';
 import bus from './js/plugin/bus.js';
 
-Vue.prototype.$http = axios;
+Vue.prototype.axios = axios;
 
 rem(3.2);
 

@@ -31,6 +31,6 @@ export default {
         width     : 100%;
         height    : .96rem;
         display   : flex;
-        border-top: 1px solid #B2B2B2;
+        border-top: .01rem solid #B2B2B2;
     }
 </style>
