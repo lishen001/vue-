@@ -1,6 +1,6 @@
 <template>
     <div class="fl_search_box">
-        <div class="fl_search">
+        <div class="fl_search" @touchend="openSearchPage">
             <span class="iconfont" :class="icon">
 
             </span>
@@ -21,6 +21,11 @@ export default {
         text:{
             type    : [String],
             required: true
+        }
+    },
+    methods:{
+        openSearchPage(){
+            console.log('222')
         }
     }
 }

@@ -3,12 +3,12 @@
     <div class="search_box">
         <search :icon="icon" :text="text"></search>
         <div class="fl_content">
-            <div v-for="item in list" :key="item.id" class="fl_item">
+            <router-link tag="div" :to="`/fl/${item.type}`" v-for="item in list" :key="item.id" class="fl_item">
                 <div v-text="item.type"></div>
                 <div>
                     <img :src="item.image" alt="">
                 </div>
-            </div>
+            </router-link>
         </div>
     </div>
 </template>

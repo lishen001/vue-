@@ -71,7 +71,6 @@ module.exports = {
 
             app.get('/mock/*', (req, res) => {
                 const urlObj = url.parse(req.url);
-                console.log(urlObj.pathname);
                 switch (urlObj.pathname) {
                     case '/mock/getfoodtypelist':
                         res.setHeader('content-type', 'application/json;charset=utf-8');
