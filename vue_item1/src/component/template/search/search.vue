@@ -1,4 +1,5 @@
 <template>
+<!-- 搜索 -->
     <div class="fl_search_box">
         <div class="fl_search" @touchend="openSearchPage">
             <span class="iconfont" :class="icon">
@@ -15,11 +16,11 @@
 export default {
     props:{
         icon:{
-            type    : [String],
+            type:[String],
             required: true
         },
         text:{
-            type    : [String],
+            type:[String],
             required: true
         }
     },
@@ -31,13 +32,17 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+    @import '../../../css/style.scss';
     .fl_search_box{
         width           : 100%;
         height          : .8rem;
         background-color: #F5F5F5;
         padding         : .12rem;
         box-sizing      : border-box;
+        position        : absolute;
+        top             : .88rem;
+        left            : 0;
     }
     .fl_search{
         text-align      : center;

@@ -16,7 +16,8 @@ module.exports = {
             { test: /\.css$/, use: ['style-loader', 'css-loader'] },
             { test: /\.(jpg|png|gif|jpeg|svg|ttf|woff|eot)$/, use: ['url-loader'] },
             { test: /\.html$/, use: ['html-loader'] },
-            { test: /\.vue$/, use: ['vue-loader'] }
+            { test: /\.vue$/, use: ['vue-loader'] },
+            { test: /\.scss$/, use: ['sass-loader'] }
         ]
     },
     plugins: [

@@ -20,7 +20,7 @@ export default {
     data(){
         return {
             titletext: '分类',
-            icon     : 'icon-sousuo',
+            icon : 'icon-sousuo',
             text     : '搜索商家、商品名称',
             list     : []
         }
@@ -42,7 +42,8 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+    @import '../../css/style.scss';
     .search_box{
         width     : 100%;
         overflow-y: scroll;
@@ -52,9 +53,10 @@ export default {
         flex-wrap      : wrap;
         justify-content: space-around;
         padding        : 0 .12rem;
+        padding-top    : .8rem;
     }
     .fl_item{
-        margin-top     : .24rem;
+        margin-top  : .24rem;
         width          : 2.84rem;
         background     : #F8F8F8;
         display        : flex;

@@ -63,13 +63,14 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+@import '../../../css/style.scss';
 .header_box {
   width          : 100%;
   height         : 0.88rem;
   box-sizing     : border-box;
   padding        : 0 0.22rem;
-  background     : #0097ff;
+  background     :$mainColor;
   display        : flex;
   justify-content: space-between;
   line-height    : 0.88rem;

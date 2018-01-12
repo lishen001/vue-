@@ -26,7 +26,8 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang='scss'>
+@import '../../../css/style.scss';
     .footer{
         width     : 100%;
         height    : .96rem;

@@ -19,7 +19,8 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+@import '../../css/style.scss';
     .mask_box{
         position  : fixed;
         left      : 0;

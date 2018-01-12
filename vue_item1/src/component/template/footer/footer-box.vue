@@ -31,7 +31,8 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+@import '../../../css/style.scss';
     .footer-item{
         flex      : 1;
         text-align: center;

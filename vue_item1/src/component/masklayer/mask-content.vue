@@ -17,7 +17,8 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+@import '../../css/style.scss';
     .mask_content{
         position  : absolute;
         left      : 0;
