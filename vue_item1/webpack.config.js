@@ -43,7 +43,6 @@ module.exports = {
         port: 8080,
         open: true,
         setup(app) {
-
             const dataBase = {
                 fllist: [
                     { type: "美食" },
