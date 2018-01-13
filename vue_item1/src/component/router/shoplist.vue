@@ -30,7 +30,7 @@ export default {
     },
     created(){
         this.bus.$emit('updataTitle',this.$route.params.title);
-        this.bus.$emit('hideFooter')
+        // this.bus.$emit('hideFooter',false)
     }
 }
 </script>

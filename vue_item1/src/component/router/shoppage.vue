@@ -7,7 +7,7 @@
 <script>
 export default {
     created(){
-        this.bus.$emit('updataTitle',this.$route.params.name);
+        this.bus.$emit('updataTitle',' ');
     }
 }
 </script>

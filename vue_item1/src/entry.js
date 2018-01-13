@@ -33,7 +33,8 @@ new Vue({ // 实例 Vue
                 { text: "订单", path: "/dd", iconname: 'icon-icon-' },
                 { text: "我的", path: "/wd", iconname: 'icon-home' }
             ],
-            title: "分类"
+            title: "分类",
+            show: true
         }
     },
     router,
